@@ -19,7 +19,8 @@ let texto = "35" //String
 let numero = 35  //Number
 
 
-let nomePeca = "Fio "
+//let nomePeca = "Fio "
+let nomePeca = listaPecas[0];
 
 if (nomePeca.length > 3) {
     console.log("nome da peça é valido, pode seguir com o cadastro");
